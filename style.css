@@ -7,6 +7,12 @@ body {
   background: #feffef;
   font-family: Helvetica, sans-serif;
 }
+@keyframes bang {
+  from {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
 .hoverme {
   width: 240px;
   margin: 150px auto 0;
